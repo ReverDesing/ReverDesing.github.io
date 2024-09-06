@@ -513,47 +513,32 @@ footer img {
 }
 
 @media only screen and (max-width: 768px) {
-    nav ul {
-        display: flex;
-        flex-direction: column;
-        padding: 0;
-    }
-
-    nav ul li {
-        display: block;
-        margin: 10px 0;
-    }
-
-    .product {
+    .product-list .product {
         display: block;
         margin: 20px auto;
         width: 90%;
     }
 
     .product img {
-        max-width: 100%;
+        width: 100%;
+        height: auto;
     }
 
     .product h2 {
         font-size: 16px;
     }
 
-    .contact-button {
-        width: 100%;
-        padding: 15px;
-    }
-
-
     #category-filter {
         display: block;
-        margin: 20px auto;
         width: 90%;
+        height: auto;
     }
 
     #categories a {
         display: block;
-        margin: 20px auto;
-        max-width: 100%;
+        padding: 5px;
+        margin: 15px auto;
+        width: 80%;
     }
 }
 
@@ -561,4 +546,3 @@ footer img {
 
 
 
-    
