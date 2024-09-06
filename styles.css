@@ -512,7 +512,7 @@ footer img {
     transform: rotate(360deg); /* หมุนไอคอน */
 }
 
-@media only screen and (max-width: auto) {
+@media only screen and (max-width: 768px) {
     .product-list .product {
         display: block;
         margin: 20px auto;
@@ -546,3 +546,4 @@ footer img {
 
 
 
+    
