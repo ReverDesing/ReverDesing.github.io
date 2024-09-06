@@ -362,7 +362,7 @@ footer img {
     text-decoration: none;
     color: #000000;
     background-color: #FFD700;
-    font-weight: bold;
+    font-weight: auto;
     padding: 0.5rem 1rem;
     border: 2px solid #000000; /* กรอบปุ่ม */
     border-radius: 4px; /* มุมปุ่มมน */
@@ -512,10 +512,53 @@ footer img {
     transform: rotate(360deg); /* หมุนไอคอน */
 }
 
-img {
-    width: 900px;
-    height: auto;
+@media only screen and (max-width: 768px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .product {
+        display: block;
+        margin: 20px auto;
+        width: 90%;
+    }
+
+    .product img {
+        max-width: 100%;
+    }
+
+    .product h2 {
+        font-size: 16px;
+    }
+
+    .contact-button {
+        width: 100%;
+        padding: 15px;
+    }
+
+
+    #category-filter {
+        display: block;
+        margin: 20px auto;
+        width: 90%;
+    }
+
+    #categories a {
+        display: block;
+        margin: 20px auto;
+        max-width: 100%;
+    }
 }
 
+    
 
 
+
+    
